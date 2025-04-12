@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #29292e;
+}
+
+#container {
+  background-color: white;
+  padding: 60px;
+  margin: 40px;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e1624f;
+}
+
+h1 {
+  color: #1b1b1b;
+  font-size: 36px;
+}
+
+#mainImg p {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #1b1b1b;
+}
+
+img {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-top: 1px #d9d9d9 solid;
+  border-bottom: 1px #d9d9d9 solid;
+}
+
+h2 {
+  font-size: 32px;
+  color: #1b1b1b;
+}
+
+p {
+  font-size: 16px;
+  padding-top: 8px;
+  color: #1b1b1b;
+}
+
+ol li {
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 1.5rem;
+  color: #1b1b1b;
+}
+
+ul li {
+  font-size: 16px;
+  list-style-type: disc;
+}
+
+h3 {
+  font-size: 16px;
+  color: #1b1b1b;
+}
+
+.info-equals-history {
+  color: #0c51a7;
+}
+
+.info-equals-family {
+  color: #e5245e;
+}
+
+.info-equals-budget {
+  color: #e95e10;
+}
+
+ul li::marker {
+  color: #1b1b1b;
+}
+
+p[creditsBusan] {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #1b1b1b;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #1b1b1b;
+}
+
+ion-icon {
+  vertical-align: middle;
+}
